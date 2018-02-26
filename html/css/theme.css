@@ -891,7 +891,7 @@ a {
   color: #232323;
 }
 .bg--dark {
-  background: #232323;
+  background: #000;
 }
 .bg--dark:not(.nav-bar) {
   color: #f5f5f5;
@@ -1308,8 +1308,7 @@ ul:last-child {
 }
 /**! 12. Nav Bar **/
 nav {
-  background-image: url("../images/creampaper.png");
-    background-repeat: repeat;
+
   z-index: 10;
 }
 .nav-bar {

@@ -5,7 +5,6 @@ Add your custom styles below
 		overflow: visible !important;
 }
 .nav-bar {
-	background-color:white;
 	height: 50px;
 	max-height: 50px;
 	line-height:50px;
@@ -22,17 +21,10 @@ Add your custom styles below
 		linear-gradient(45deg,  transparent 30px, #fff 0) bottom left;
 	background-size: 60% 50%;
 	background-repeat: no-repeat;
-	
-    position: relative;
     width:300px;
-    left: 0;
-    top: 0;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    /*margin-top:-25px;*/
     z-index:1;
-    width:100%;
+    margin-right:0;
+    margin-left:0;
 
 }
 
@@ -57,5 +49,14 @@ Add your custom styles below
 }
 
 .bg--primary {
-	background-color:black;
+	background-color:#eae2cd;
+}
+
+.nav-bar .row {
+	margin-left:0px;
+}
+
+.left-col-fill {
+	margin-bottom:-9999px;
+	padding-bottom:9999px;
 }
