@@ -18,7 +18,16 @@
 
 	<div class="row">
 		<div class="col-md-3 bg--dark height-100 col-no-padding">
-			<a  href="#"><img src="images/logo.jpg"></a>
+			<div class="row">
+				<div class="col-md-12 col-no-padding">
+					<a  href="#"><img src="images/logo.jpg"></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="masonry__filters text-center" data-filter-all-text="Show All"></div>
+				</div>
+			</div>
 		</div>
 
 		<div class="col-md-9 bg--dark  height-100 col-no-padding">
@@ -29,7 +38,7 @@
 				      	<div class="col-12">
 					        <ul class="menu nav-menu pull-left">
 					            <li>
-					                <a href="#">Store</a>
+					                <a href="#shop.html">Shop</a>
 					            </li>
 					            <li>
 					                <a href="#">About</a>
@@ -50,7 +59,42 @@
 			</nav>
 			</div>
 			<div class="main-container bg--primary">
-				<div class="cover bg-primary">
+				<div class="container" id="content-container">
+					<section class="masonry-contained">
+					    <div class="container">
+					        <div class="row">
+					            <div class="masonry masonry-shop">
+					                
+					                <div class="masonry__container masonry--animate">
+					                    <div class="col-md-4 col-sm-6 masonry__item" data-masonry-filter="accessories">
+					                        <a href="#">
+					                            <div class="card card-7">
+					                                <div class="card__image">
+					                                    <img alt="Pic" src="images/logo.jpg">
+					                                </div>
+					                                <div class="card__body boxed bg--dark">
+					                                    <div class="card__title">
+					                                        <h6>Accessories</h6>
+					                                        <h5>Charles Leather Bag</h5>
+					                                    </div>
+					                                    <div class="card__price">
+					                                        <span class="type--strikethrough">$129.99</span>
+					                                        <span>$89.99</span>
+					                                    </div>
+					                                </div>
+					                            </div>
+					                        </a>
+					                    </div>
+
+					                </div>
+					                
+					            </div>
+					            
+					        </div>
+					        
+					    </div>
+					    
+					</section>
 				</div>
 			</div>
 		</div>
@@ -109,11 +153,16 @@
 		        </div>
 		    </div>
 		</footer>
-		
-				
 		<script src="js/jquery-2.1.4.min.js"></script>
-        <script src="js/isotope.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.js"></script>		
+		
+
+
+		<script src="js/jquery.ba-hashchange.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scrollreveal.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>

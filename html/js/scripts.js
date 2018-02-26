@@ -747,7 +747,7 @@ mr = (function (mr, $, window, document){
         $('.masonry').each(function(){
             var masonry = $(this);
             var masonryContainer = masonry.find('.masonry__container'),
-                filters          = masonry.find('.masonry__filters'),
+                filters          = $('body').find('.masonry__filters'),
                 // data-filter-all-text can be used to set the word for "all"
                 filterAllText    = typeof filters.attr('data-filter-all-text') !== typeof undefined ? filters.attr('data-filter-all-text') : "All",
                 filtersList;
@@ -802,7 +802,7 @@ mr = (function (mr, $, window, document){
     };
 
     var windowLoad = function(){
-
+        $('.masonry-contained').show();
         $('.masonry').each(function(){
             var masonry = $(this).find('.masonry__container');
 
@@ -1560,13 +1560,6 @@ $(function() {
           cache[url] = $('<div class="item">').appendTo("#content-container").load(url, function() {
           $("#content-container").ready(function() {
             onLoadContainer();
-            //var homeCarousel = $("#home-carousel").carousel();
-            $('.carousel').carousel();
-            $('.carousel-control').click(function(e){
-              e.preventDefault();
-            });
-            bindOnce($('.carousel-control-prev'), function() { $('#home-carousel').carousel('prev'); });
-            bindOnce($('.carousel-control-next'), function() { $('#home-carousel').carousel('next'); });
           });
 
         });
