@@ -57,6 +57,23 @@ Add your custom styles below
 }
 
 .left-col-fill {
-	margin-bottom:-9999px;
-	padding-bottom:9999px;
+	height:100vh;
+	overflow:hidden;
+}
+
+.row-no-padding {
+  [class*="col-"] {
+    padding: 0 !important;
+  }
+}
+.col-no-padding {
+	padding:0 !important;
+}
+
+.main-container {
+	height: calc(100% - 50px);
+}
+
+footer {
+	padding:0;
 }
