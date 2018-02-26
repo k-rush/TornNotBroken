@@ -1,0 +1,61 @@
+/***************************
+Add your custom styles below
+****************************/
+.navbar {
+		overflow: visible !important;
+}
+.nav-bar {
+	background-color:white;
+	height: 50px;
+	max-height: 50px;
+	line-height:50px;
+	/*margin-top:25px;*/
+	padding: 0;
+	width:100%;
+}
+.nav-bar .navbar-brand {
+	background-color: white;
+	background:
+		/*linear-gradient(135deg, transparent 30px, #fff 0) top left,
+		linear-gradient(225deg, transparent 30px, #fff 0) top right,*/
+		linear-gradient(315deg, transparent 30px, #fff 0) bottom right,
+		linear-gradient(45deg,  transparent 30px, #fff 0) bottom left;
+	background-size: 60% 50%;
+	background-repeat: no-repeat;
+	
+    position: relative;
+    width:300px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top:-25px;*/
+    z-index:1;
+    width:100%;
+
+}
+
+
+.navbar-brand > a > img {
+	max-width:100px;
+	margin-bottom:0px;
+}
+
+.nav-menu > li {
+	font-size: .8em;
+}
+
+.imagebg {
+	/*margin-top:-75px;*/
+}
+
+.h1, h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 3em;
+}
+
+.bg--primary {
+	background-color:black;
+}
