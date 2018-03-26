@@ -77,3 +77,11 @@ Add your custom styles below
 footer {
 	padding:0;
 }
+
+section {
+	display:none;
+}
+
+section.section-active {
+	display:block;
+}
